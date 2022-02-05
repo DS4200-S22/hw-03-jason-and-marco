@@ -16,7 +16,9 @@ h1 {
 }
 
 .box {
-  border: black;
+  margin: auto;
+  border: 5px solid black;
+  border-radius: 3px;
 }
 
 div {
