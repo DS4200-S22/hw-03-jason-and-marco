@@ -9,6 +9,18 @@ h1 {
 .container {
   display: flex;
   flex-wrap: wrap;
+  /*flex-grow: 4; !* default 0 *!*/
+  /*flex-shrink: 3; !* default 0 *!*/
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box {
+  border: black;
+}
+
+div {
+  border: black;
 }
 
 /*.grid2x2 {*/
