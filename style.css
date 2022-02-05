@@ -31,6 +31,21 @@ p {
   padding-left: 10px;
 }
 
+.square {
+  width: 50px;
+  height: 50px;
+  background: lightskyblue;
+}
+
+.circle {
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background: lightgreen;
+}
+
 /*.grid2x2 {*/
 /*  min-height: 100%;*/
 /*  display: flex;*/
